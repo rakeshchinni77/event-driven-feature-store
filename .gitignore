@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local database volume
+db_data/
+
+# Logs
+logs/
+
+# OS / Editor noise
+.DS_Store
+.vscode/
+.idea/
