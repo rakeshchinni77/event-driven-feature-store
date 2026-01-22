@@ -1,0 +1,19 @@
+# Web Framework
+fastapi
+uvicorn
+
+# Kafka Client
+confluent-kafka
+
+# Database
+psycopg2-binary
+
+# Validation & Config
+pydantic
+python-dotenv
+
+# Reliability / Retry
+tenacity
+
+# Testing
+pytest
