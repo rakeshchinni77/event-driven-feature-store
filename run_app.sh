@@ -1,3 +1,6 @@
+#!/bin/sh
+set -e
+
 echo "Waiting for PostgreSQL to be ready..."
 while ! nc -z "$POSTGRES_HOST" 5432; do
   sleep 1
@@ -11,4 +14,4 @@ done
 echo "Kafka is ready"
 
 echo "Starting Feature Store Service..."
-exec uvicorn src.main:app --host 0.0.0.0 --port 8000
+exec python -m src
