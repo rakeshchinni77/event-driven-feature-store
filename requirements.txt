@@ -1,19 +1,20 @@
-# Web Framework
+# Web framework
 fastapi
 uvicorn
 
-# Kafka Client
+# Kafka client (REQUIRED for producer & consumer)
 confluent-kafka
 
 # Database
 psycopg2-binary
 
-# Validation & Config
+# Validation & config
 pydantic
 python-dotenv
 
-# Reliability / Retry
+# Reliability
 tenacity
 
 # Testing
 pytest
+httpx
